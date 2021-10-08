@@ -12,7 +12,6 @@ import { UserProvider } from './UserContext';
 
 //Component imports
 import NavBar from './components/NavBar';
-import Footer from './components/Footer';
 
 //Page Imports
 import Home from './pages/Home';
@@ -67,7 +66,6 @@ export default function App() {
           <Route exact path="/login" component={Login}/>
           <Route exact path="/invoices" component={Invoices}/>
         </Switch>
-        <Footer/>
       </Router>
     </UserProvider>
   );
