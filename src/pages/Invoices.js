@@ -306,7 +306,7 @@ export default function Invoice(){
 						</Form.Group>
 					</Modal.Body>
 					<Modal.Footer>
-						<Button variant="secondary" onClick={closeEdit}>Cancel</Button>
+						<Button variant="secondary" onClick={closeAdd}>Cancel</Button>
 						<Button variant="success" type="submit">Submit</Button>
 					</Modal.Footer>
 				</Form>
