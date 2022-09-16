@@ -3,7 +3,7 @@ import {Row, Col} from 'react-bootstrap';
 export default function Highlights(){
 	return(
 		<Row>
-			<Col xs={12} md={4}>
+			<Col xs={12} md={4} className='mb-3'>
 				<div className="card-highlight">
 					<div>
 						<h5>Heading 1</h5>
@@ -14,7 +14,7 @@ export default function Highlights(){
 					</div>
 				</div>
 			</Col>
-			<Col xs={12} md={4}>
+			<Col xs={12} md={4} className='mb-3'>
 				<div className="card-highlight">
 					<div>
 						<h5>Heading 2</h5>
@@ -25,7 +25,7 @@ export default function Highlights(){
 					</div>
 				</div>
 			</Col>
-			<Col xs={12} md={4}>
+			<Col xs={12} md={4} className='mb-3'>
 				<div className="card-highlight">
 					<div>
 						<h5>Heading 3</h5>

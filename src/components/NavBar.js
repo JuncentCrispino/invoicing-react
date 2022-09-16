@@ -25,8 +25,8 @@ export default function NavBar(){
 	);
 
 	return(
-		<Navbar bg="light" expand="lg">
-		  <Link className="navbar-brand" to="/">Test App</Link>
+		<Navbar expand="lg" className='nav-bar'>
+		  <Link className="navbar-brand" to="/">App</Link>
 		  <Navbar.Toggle aria-controls="basic-navbar-nav" />
 		  <Navbar.Collapse id="basic-navbar-nav">
 		    <Nav className="mr-auto">

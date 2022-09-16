@@ -235,35 +235,35 @@ export default function Invoice(){
 			</Table>
 
 		{/*Form for updating the invoice*/}
-			<Modal show={showEdit} onHide={closeEdit}>
+			<Modal show={showEdit} onHide={closeEdit} >
 				<Form onSubmit={(e) => updateInvoice(e)}>
 					<Modal.Header closeButton>
 						<Modal.Title>Update Invoice</Modal.Title>
 					</Modal.Header>
 					<Modal.Body>
 						<Form.Group controlId="invoiceNo">
-							<Form.Label>Invoice Number</Form.Label>
-							<Form.Control type="number" value={invoiceNo} onChange={e => setInvoiceNo(e.target.value)} required/>
+							<Form.Label className='text-sm'>Invoice Number</Form.Label>
+							<Form.Control className='text-sm' type="number" value={invoiceNo} onChange={e => setInvoiceNo(e.target.value)} required/>
 						</Form.Group>
 						<Form.Group controlId="invoiceDate">
-							<Form.Label>Invoice Date</Form.Label>
-							<Form.Control type="string" value={invoiceDate} onChange={e => setInvoiceDate(e.target.value)}required/>
+							<Form.Label className='text-sm'>Invoice Date</Form.Label>
+							<Form.Control className='text-sm' type="string" value={invoiceDate} onChange={e => setInvoiceDate(e.target.value)}required/>
 						</Form.Group>
 						<Form.Group controlId="customerName">
-							<Form.Label>Customer Name</Form.Label>
-							<Form.Control type="string" value={customerName} onChange={e => setCustomerName(e.target.value)}required/>
+							<Form.Label className='text-sm'>Customer Name</Form.Label>
+							<Form.Control className='text-sm' type="string" value={customerName} onChange={e => setCustomerName(e.target.value)}required/>
 						</Form.Group>
 						<Form.Group controlId="productName">
-							<Form.Label>Product Name</Form.Label>
-							<Form.Control type="string" value={productName} onChange={e => setProductName(e.target.value)}required/>
+							<Form.Label className='text-sm'>Product Name</Form.Label>
+							<Form.Control className='text-sm' type="string" value={productName} onChange={e => setProductName(e.target.value)}required/>
 						</Form.Group>
 						<Form.Group controlId="productQuantity">
-							<Form.Label>Product Quantity</Form.Label>
-							<Form.Control type="number" value={productQuantity} onChange={e => setProductQuantity(e.target.value)} required/>
+							<Form.Label className='text-sm'>Product Quantity</Form.Label>
+							<Form.Control className='text-sm' type="number" value={productQuantity} onChange={e => setProductQuantity(e.target.value)} required/>
 						</Form.Group>
 						<Form.Group controlId="productPrice">
-							<Form.Label>Product Price</Form.Label>
-							<Form.Control type="number" value={productPrice} onChange={e => setProductPrice(e.target.value)} required/>
+							<Form.Label className='text-sm'>Product Price</Form.Label>
+							<Form.Control className='text-sm' type="number" value={productPrice} onChange={e => setProductPrice(e.target.value)} required/>
 						</Form.Group>
 					</Modal.Body>
 					<Modal.Footer>
@@ -281,28 +281,28 @@ export default function Invoice(){
 					</Modal.Header>
 					<Modal.Body>
 						<Form.Group controlId="invoiceNo">
-							<Form.Label>Invoice Number</Form.Label>
-							<Form.Control type="number" value={invoiceNo} onChange={e => setInvoiceNo(e.target.value)} required/>
+							<Form.Label className='text-sm'>Invoice Number</Form.Label>
+							<Form.Control className='text-sm' type="number" value={invoiceNo} onChange={e => setInvoiceNo(e.target.value)} required/>
 						</Form.Group>
 						<Form.Group controlId="invoiceDate">
-							<Form.Label>Invoice Date</Form.Label>
-							<Form.Control type="string" value={invoiceDate} onChange={e => setInvoiceDate(e.target.value)}required/>
+							<Form.Label className='text-sm'>Invoice Date</Form.Label>
+							<Form.Control className='text-sm' type="string" value={invoiceDate} onChange={e => setInvoiceDate(e.target.value)}required/>
 						</Form.Group>
 						<Form.Group controlId="customerName">
-							<Form.Label>Customer Name</Form.Label>
-							<Form.Control type="string" value={customerName} onChange={e => setCustomerName(e.target.value)}required/>
+							<Form.Label className='text-sm'>Customer Name</Form.Label>
+							<Form.Control className='text-sm' type="string" value={customerName} onChange={e => setCustomerName(e.target.value)}required/>
 						</Form.Group>
 						<Form.Group controlId="productName">
-							<Form.Label>Product Name</Form.Label>
-							<Form.Control type="string" value={productName} onChange={e => setProductName(e.target.value)}required/>
+							<Form.Label className='text-sm'>Product Name</Form.Label>
+							<Form.Control className='text-sm' type="string" value={productName} onChange={e => setProductName(e.target.value)}required/>
 						</Form.Group>
 						<Form.Group controlId="productQuantity">
-							<Form.Label>Product Quantity</Form.Label>
-							<Form.Control type="number" value={productQuantity} onChange={e => setProductQuantity(e.target.value)} required/>
+							<Form.Label className='text-sm'>Product Quantity</Form.Label>
+							<Form.Control className='text-sm' type="number" value={productQuantity} onChange={e => setProductQuantity(e.target.value)} required/>
 						</Form.Group>
 						<Form.Group controlId="productPrice">
-							<Form.Label>Product Price</Form.Label>
-							<Form.Control type="number" value={productPrice} onChange={e => setProductPrice(e.target.value)} required/>
+							<Form.Label className='text-sm'>Product Price</Form.Label>
+							<Form.Control className='text-sm' type="number" value={productPrice} onChange={e => setProductPrice(e.target.value)} required/>
 						</Form.Group>
 					</Modal.Body>
 					<Modal.Footer>

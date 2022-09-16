@@ -10,11 +10,11 @@ export default function Home(){
 		label: "Signup Now!"
 	};
 	return(
-		<>
+		<div>
 			<Banner bannerProps={data}/>
 			<Container>
 				<Highlights/>
 			</Container>
-		</>
+		</div>
 	);
 };  

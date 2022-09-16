@@ -35,6 +35,7 @@ export default function App() {
   };
 
   useEffect(()=>{
+    console.log({ api: process.env.REACT_APP_API_URL})
     fetch(`${process.env.REACT_APP_API_URL}/users/details`, {
       headers: {
         Authorization: `Bearer ${localStorage.getItem('token')}`
