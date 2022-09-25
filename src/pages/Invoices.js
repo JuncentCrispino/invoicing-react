@@ -130,6 +130,7 @@ export default function Invoice(){
 			if(data === true){
 				fetchData()
 				closeAdd()
+				closeEdit()
 				Swal.fire({
 					title: 'Success',
 					icon: 'success',
